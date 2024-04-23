@@ -5,7 +5,7 @@ description = "letsrolld API"
 authors = ["OpenAPI Generator Community <team@openapitools.org>"]
 license = "GPL-3.0"
 readme = "README.md"
-repository = "https://github.com/GIT_USER_ID/GIT_REPO_ID"
+repository = "https://github.com/booxter/letsrolld-client"
 keywords = ["OpenAPI", "OpenAPI-Generator", "letsrolld API"]
 include = ["openapi_client/py.typed"]
 

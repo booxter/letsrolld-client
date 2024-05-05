@@ -19,15 +19,17 @@ def run():
     client = Client(base_url="http://localhost:8000")
     with client as client:
         # multiple directors
-        for director in get_directors.sync(client=client):
+        for director in get_directors.sync(limit=1, client=client):
             report_director(director)
 
         # director by id
         director = get_directors_id.sync(id=10, client=client)
         report_director(director)
 
+        print('---')
+
         # multiple films
-        for film in get_films.sync(client=client):
+        for film in get_films.sync(limit=1, client=client):
             report_film(film)
 
         # film by id

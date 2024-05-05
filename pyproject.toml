@@ -1,0 +1,14 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Ihar Hrachyshka", email = "ihrachys@redhat.com"},
+]
+dependencies = [
+    "openapi-python-client>=0.19.1",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
